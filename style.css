@@ -60,3 +60,36 @@ nav li:hover, li.active{
     background: black;
     color: white;
 }
+@media (max-width: 768px){
+    body{
+        background-color: aquamarine;
+    }
+    nav{
+        width: 100%;
+    }
+    main{
+        width: 75%;
+    }
+    aside{
+        width: 25%;
+    }
+
+}
+@media (max-width: 480px){
+    body{
+        background-color: red;
+    }
+    nav{
+        width: 100%;
+    }
+    main{
+        width: 100%;
+    }
+    aside{
+        width: 100%;
+    }
+
+}
+
+
+
